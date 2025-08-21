@@ -61,7 +61,6 @@ Desktop.ini
 # Project specific
 data-export/
 backups/
-temp/
 temp-components/
 *.backup
 *.old
