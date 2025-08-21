@@ -1,0 +1,85 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dashboard Eskul Programming - Project Specific
+# localStorage backup files
+*.localstorage
+*.localstorage-journal
+dashboard-eskul-backup-*.json
+localStorage-export-*.json
+
+# Build artifacts
+build/
+.vite/
+*.tsbuildinfo
+
+# Development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project specific
+data-export/
+backups/
+temp/
+temp-components/
+*.backup
+*.old
+
+# IDE specific
+*.swp
+*.swo
+*~
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.iml
+modules.xml
+.idea/misc.xml
+.idea/workspace.xml
+.idea/libraries/
+
+# Logs specific to this project
+dashboard-eskul-debug.log
+dashboard-eskul-error.log
+export-debug.log
